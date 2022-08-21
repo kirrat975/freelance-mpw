@@ -1,0 +1,34 @@
+{
+    "sourceFile": "src/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1660111075196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1660113126238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import './App.css';\n+import 'bootstrap/dist/css/bootstrap.min.css';\n import Join from './components/Join';\n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1660113326089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n import './App.css';\n-import 'bootstrap/dist/css/bootstrap.min.css';\n import Join from './components/Join';\n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1660316384171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,32 @@\n import './App.css';\n-import Join from './components/Join';\n+import Home from './components/Home';\n+import Bjoin from './components/Bjoin';\n+import Sjoin from './components/Sjoin';\n+import Signin from './components/Signin';\n+import Ppolicy from './components/Ppolicy';\n+import TermsofS from './components/TermsofS';\n+import { UserAuthContextProvider } from './context/UserAuthContext';\n+import { BrowserRouter,Routes,Route} from \"react-router-dom\";\n function App() {\n   return (\n-    <div className=\"App\">\n-      <Join/>\n+    <div>\n+  <BrowserRouter>\n+  <UserAuthContextProvider>\n+    <Routes>\n+      <Route path=\"/\" element={<Home/>}></Route>\n+      <Route path=\"/bjoin\" element={<Bjoin/>}></Route>\n+      <Route path=\"/sjoin\" element={<Sjoin/>}></Route>\n+      <Route path=\"/signin\" element={<Signin/>}></Route>\n+      <Route path=\"/policy\" element={<Ppolicy/>}></Route>\n+      <Route path=\"/ftos\" element={<TermsofS/>}></Route>\n+    </Routes>\n+    </UserAuthContextProvider>\n+  </BrowserRouter>\n+\n     </div>\n+    \n+   \n   );\n }\n \n export default App;\n"
+                },
+                {
+                    "date": 1660975817323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,10 @@\n import Sjoin from './components/Sjoin';\n import Signin from './components/Signin';\n import Ppolicy from './components/Ppolicy';\n import TermsofS from './components/TermsofS';\n+import Settings from './components/Settings';\n+import Billing from './components/Billing';\n import { UserAuthContextProvider } from './context/UserAuthContext';\n import { BrowserRouter,Routes,Route} from \"react-router-dom\";\n function App() {\n   return (\n@@ -18,8 +20,11 @@\n       <Route path=\"/sjoin\" element={<Sjoin/>}></Route>\n       <Route path=\"/signin\" element={<Signin/>}></Route>\n       <Route path=\"/policy\" element={<Ppolicy/>}></Route>\n       <Route path=\"/ftos\" element={<TermsofS/>}></Route>\n+      <Route path=\"/set\" element={<Settings/>}></Route>\n+      <Route path=\"/bill\" element={<Billing/>}></Route>\n+    \n     </Routes>\n     </UserAuthContextProvider>\n   </BrowserRouter>\n \n"
+                }
+            ],
+            "date": 1660111075196,
+            "name": "Commit-0",
+            "content": "import './App.css';\nimport Join from './components/Join';\nfunction App() {\n  return (\n    <div className=\"App\">\n      <Join/>\n    </div>\n  );\n}\n\nexport default App;\n"
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+.bjcont{
+  padding-bottom: 100px!important;
+  background-color: palegoldenrod !important;
+  position: relative;
+  border: 10px solid black;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+    
+}
+.ispan{
+  
+    padding:10px;
+  }
+  #fsep{
+    height: 12px;
+    margin: 15px 0 20px;
+    text-align: center;
+    border-bottom: 1px solid #e4e5e7;
+    font-weight: bold;
+  }
+
+  #gbtn,#fbtn,#lbtn{
+    color:black;
+    background-color:mintcream;
+    font-weight: bold;
+    padding:5px;
+    text-align: center;
+    width:300px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 3px solid black;
+    letter-spacing: 2px;
+   
+  }
+  #gbtn:hover{
+    background-color: lightsteelblue;
+  }
+  #fbtn:hover{
+    background-color: lightsteelblue;
+  }
+  #lbtn:hover{
+    background-color: lightsteelblue;
+  }
+  .subtn{
+    width:300px;
+    background-color: mediumseagreen;
+    font-weight: bold;
+    color:black;
+    letter-spacing: 3px;
+    margin-left: 140px;
+    margin-bottom: 10px;
+  }
+  #sibtn,#jbtn{
+    color: darkgreen;
+    text-decoration: underline;
+    background-color: peachpuff;
+  
+  }
+  #sibtn:hover{
+   background-color: lightblue;
+   color:black;
+  }
+  .aform{
+    border:5px solid black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: peachpuff;
+    margin-top: 8px;
+
+ 
+  }
+
+  .form-control{
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px;
+    border: 3px solid limegreen !important;
+  }
+  input{
+  width : 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+  footer{
+    margin-top: 5px;
+  }
+ footer p{
+    text-align: center;
+  }
+  .sbs{
+    border: 5px solid black;
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 12px;
+    position: static;
+  }
+  #jhead{
+    text-align: center;
+    -webkit-text-stroke-color: green;
+    -webkit-text-stroke-width:2px;
+    color:white;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+  }
+  

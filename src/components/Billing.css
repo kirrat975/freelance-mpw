@@ -1,0 +1,138 @@
+.billcont{
+    border: 20px solid black;
+    box-sizing: border-box;
+    border-radius: 60px;
+    border-left-color:lightgreen;
+    border-right-color:lightgreen;
+
+}
+.hbill{
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 8px;
+    -webkit-text-stroke-color:greenyellow;
+    -webkit-text-stroke-width:2px;
+
+}
+
+.bcontent{
+    padding: 32px;
+    box-sizing: border-box;
+    
+    
+}
+.biltabs{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    border-bottom: 1px solid #e4e5e7;
+    margin-top: 50px;
+    
+}
+.biltabs li{
+    display: inline-block;
+    margin-right: 12px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    color:gray;
+    letter-spacing: 3px;
+}
+.biltabs li a{
+    color:#1dbf73;
+    text-decoration: underline;
+}
+ #bh{
+    margin-bottom: 40px;
+    margin-top:30px;
+    letter-spacing: 3px;
+}
+.smenu-tabs select {
+margin-right: 20px;
+font-weight: bold;
+}
+.smenu  #sinv{
+    box-sizing: border-box;
+    width: 350px;
+    padding: 8px 12px;
+    border: 1px solid #c5c6c9;
+    border-radius: 4px;
+    color: #404145;
+   margin-top: 40px;
+}
+.smenu #sres{
+    margin-right: 8px;
+    color:black;
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+.btable{
+    margin-top: 24px;
+    border: 1px solid #dadbdd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.btable .sbtable{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    color: #404145;
+    font-size: 14px;
+}
+.tabhead{
+    background-color: #fafafa;
+}
+.tabhead tr{
+    display: table-row;
+}
+.tabth{
+    height: 44px;
+    font-size: 14px;
+    overflow: hidden;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: 700;
+
+}
+.tabhead #check{
+    vertical-align: middle;
+    color: #b5b6ba;
+    display: inline-flex;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    border: 1px solid black;
+}
+.invoice{
+    padding: 80px 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.invoice .expf{
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    padding: 12px 24px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 24px;
+    background-color: #1dbf73;
+    color: white;
+
+    
+}
